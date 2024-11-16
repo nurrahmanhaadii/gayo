@@ -27,12 +27,12 @@ class FirestoreDatabaseService {
       await _firestore.collection('users').doc(userId).set(data);
 
       // Delete the temporary record in 'users/temporary/temporaryUsers'
-      await _firestore
-          .collection('users')
-          .doc('temporary')
-          .collection('temporaryUsers')
-          .doc(userId)
-          .delete();
+      // await _firestore
+      //     .collection('users')
+      //     .doc('temporary')
+      //     .collection('temporaryUsers')
+      //     .doc(userId)
+      //     .delete();
     } catch (e) {
       print("Error completing registration: $e");
     }

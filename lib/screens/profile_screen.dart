@@ -98,12 +98,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
         if (userId != null) {
           final userDocRef =
               FirebaseFirestore.instance.collection('users').doc(userId);
-          await FirebaseFirestore.instance
-              .collection('users')
-              .doc('temporary')
-              .collection('temporaryUsers')
-              .doc(userId)
-              .set(userData);
+          // await FirebaseFirestore.instance
+          //     .collection('users')
+          //     .doc('temporary')
+          //     .collection('temporaryUsers')
+          //     .doc(userId)
+          //     .set(userData);
           await userDocRef.set(userData);
           await FirebaseFirestore.instance
               .collection('users')

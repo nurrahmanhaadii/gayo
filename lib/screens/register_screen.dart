@@ -67,6 +67,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 isPassword: true,
                 inputType: TextInputType.text,
               ),
+              const SizedBox(height: 20),
               CustomButton(
                 text: 'Register Now!',
                 color: Colors.green,
