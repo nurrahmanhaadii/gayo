@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "152039563512",
+    "project_id": "nft-gayo-39ea6",
+    "storage_bucket": "nft-gayo-39ea6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152039563512:android:793b4f8e1a3f1c18e71b0d",
+        "android_client_info": {
+          "package_name": "com.kopigayonft.app.nft_gayo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkPmy9n2-L06rDClU1o_PsZb8pR8NKaj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
